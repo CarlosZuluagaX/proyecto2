@@ -1,0 +1,34 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    background-color: bisque;
+    font-family: sans-serif;
+
+
+}
+
+main .P1{
+    background-color: rgba(187, 12, 12, 0.541);
+    color: rgba(0, 0, 255, 0.651);
+
+}
+.activee p:active{
+    color: rgb(39, 62, 161);
+}
+.focuss p:focus{
+    color: chartreuse;
+}
+.div2 p:nth-child(3){
+    color: rgb(172, 129, 76);
+    background-color: blanchedalmond;
+}
+
+.hoverr p:hover{
+    color: blue;
+}
+p::before {
+    content: "☕" 
+}
+p::after {
+    content: "🤍"
+ }
