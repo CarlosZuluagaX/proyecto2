@@ -1,0 +1,103 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+    background-color:rgb(187, 117, 32);
+
+}
+
+.container{
+    /* width: 300px;
+    height: 400px;
+    background-color: rgba(222, 184, 135, 0.589);
+    border-radius: 60px;
+    display: flex; */
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container .tarjeta{
+    width: 350px;
+    height: 500px;
+    background-color: rgb(235, 223, 208);
+    border-radius: 30px;
+    position: relative;
+    top: 60px;
+}
+
+
+
+.container .tarjeta .imagen img{
+    width: 350px;
+    height: 220px;
+    background-color: black;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+
+}
+.container .tarjeta .cafee img{
+    height: 100px;
+    width: 100px;
+    background-color: beige;
+    display: flex;
+    position: relative;
+    left: 125px;
+    bottom: 120px;
+    border-radius: 50%;
+    
+}
+.container .tarjeta .caja1{
+    /* background-color: black; */
+    width: 350px;
+    height: 200px;
+    position: relative;
+    bottom: 105px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.container .tarjeta .caja1 h3{
+    padding: 0%;
+    margin: 0%;
+    color: rgba(190, 114, 22, 0.733);
+    font-size: 15px;
+    position: relative;
+    top: 40px;
+
+}
+.container .tarjeta .caja2{
+    width: 350px;
+    height: 30px;
+    /* background-color:rebeccapurple ; */
+    position: relative;
+    bottom: 110px;
+}
+
+.container .tarjeta .caja2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container .tarjeta .caja2 .caja22{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: rgba(190, 114, 22, 0.520);
+    width: 230px;
+    height: 30px;
+    border-radius: 10px;
+}
+.container .tarjeta .caja2 h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif  ;
+}
+.container .tarjeta .caja2 h3:hover {
+    color: red;
+    transition: 0.3s;
+
+}
+
