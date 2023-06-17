@@ -1,0 +1,73 @@
+body{
+    /* padding: 0%;
+    margin: 0%; */
+    font-family: sans-serif;
+    background-color: blanchedalmond;
+ 
+}
+
+
+.container{
+    background-color: rgb(179, 163, 144);
+    margin: auto;
+    padding: auto;
+    /* width: 100px;
+    height: 100px; */
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column-reverse;
+
+
+}
+
+.container .hijo1{
+    background-color: blueviolet;
+    color: blueviolet;
+    width: 200px;
+    height: 200px;
+    position: static;
+    display: flex;
+    z-index: 4;
+
+}
+.container .hijo2{
+    background-color: brown;
+    width:200px;
+    height: 200px;
+    position: relative;
+    top: 10px;
+    left: 40px;
+    top: 60px;
+    z-index: 1;
+}
+.container .hijo3{
+    background-color: rgb(34, 163, 34);
+    width:200px;
+    height: 200px;
+    
+}
+.container .hijo4{
+    background-color: rgb(73, 18, 99);
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 400px;
+    left: 220px;
+}
+.container .hijo5{
+    background-color: rgb(162, 115, 184);
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+    left: 120px;
+    bottom: 200px;
+}
+.container .hijo6{
+    background-color: rgb(79, 114, 85);
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+}
