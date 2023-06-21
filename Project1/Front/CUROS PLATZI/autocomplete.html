@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autocomplete</title>
+</head>
+<body>
+    <section>
+    <form action="/">
+        <label for="nombre">
+            <span>Your name?
+            </span>
+            <input type="text"id="nombre" autocomplete="name">
+        </label>
+        <label for="Correo">
+            <span>What is Your Email?</span>
+            <input type="text" name="" id="Correo" autocomplete="email">
+        </label>
+        <label for="Pais">
+            <span>What is your country?</span>
+            <input type="text" name="" id="country" autocomplete="country">
+        </label>
+        <label for="cp">
+            <span>What is your cp?</span>
+            <input type="number" name="" id="cp" autocomplete="postal-code" required>
+        </label>
+
+        <label for="Calendar">
+            <span>Calendario</span>
+            <input type="datetime-local" required>
+        </label>
+
+        <label for="Calendar">
+            <span>hidden</span>
+            <input type="image" required>
+        </label>
+        
+        
+
+    </form>
+    <input type="submit">
+    </section>
+    
+</body>
+</html>
