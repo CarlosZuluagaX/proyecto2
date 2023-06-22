@@ -1,0 +1,14 @@
+.padre{
+    background-color: aquamarine;
+    height: 100vh;
+    width: 100vw;
+
+}
+body{
+    padding: 0%;
+    margin: 0%;
+}
+
+.padre .padre_parrafo1{
+    position: fixed;
+}
