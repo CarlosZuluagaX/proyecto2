@@ -1,14 +1,84 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+    background-color: beige;
+    box-sizing: border-box;
+}
+
+.navbar{
+    height: 60px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+}
+
+.navbar .nav__Home:hover {
+    color: red;
+    transition: 0.3s;
+    text-decoration: dashed;
+    
+}
+.navbar .nav__About_us:active{
+    color: blue;
+
+}
+.padre{
+    background-color: rgba(143, 17, 17, 0.753);
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.padre .padre__caja1{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    border: 2px solid rgb(88, 192, 68);
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+.padre .padre__caja2{
+    background-color: rgb(39, 39, 199);
+    height: 100px;
+    width: 100px;
+    border: 2px solid red ;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.padre .padre__caja3{
+    background-color: chocolate;
+    height: 100px;
+    width: 100px;
+    border: solid red;
+    box-sizing: border-box;
+
+}
+
+.parrafo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+
+}
+.parrafo .parrafo1{
+    font-family: inherit;
+}
+/* .navbar .Contact */
+/* 
 .padre{
     background-color: aquamarine;
     height: 100vh;
     width: 100vw;
 
 }
-body{
-    padding: 0%;
-    margin: 0%;
-}
 
 .padre .padre_parrafo1{
     position: fixed;
-}
+} */

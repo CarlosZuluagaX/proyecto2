@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    padding: 0%;
+    margin: 0%;
+    background-color: beige;
+    box-sizing: border-box;
+}
+p{
+    font-size: 2rem;
+}
+.como p{
+    font-size: 3rem;
+
+}

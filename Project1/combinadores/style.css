@@ -1,0 +1,24 @@
+body{
+    padding: auto;
+    margin: auto;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: rgb(121, 86, 75);
+
+}
+
+h2 + p{
+    color: red;
+    /* Ese h2 + p significa que se debe aplicar al elemento mas que este arriba la regla, elementos que esten cerca del h2  */
+}
+
+h2 ~ p{
+    color: blue;
+    /*hermanos generales, hace que cambien siempre y cuando existan en la misma linea*/
+}
+
+div > p{
+    /*etiqueta parrafo que sea hija directa de un etiqueta div */
+    color: beige;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
